@@ -1,0 +1,38 @@
+#page-container {
+	font-family: 'Darker Grotesque', sans-serif;
+	width: 790px;
+}
+
+
+#navbar {
+	width: 790px;
+	position: fixed;
+	display: flex;
+	background-color: lightyellow;
+	justify-content: space-between;
+
+}
+
+#navtext {
+	position: relative;	
+	list-style: none;
+	display: flex;
+	float: right;
+	
+
+}
+
+.li {
+	margin-inline: 30px;
+	text-align: center;
+	position: relative;
+}
+
+#logo {
+	float: left;
+	height: auto; 
+    width: auto; 
+    max-width: auto; 
+    max-height: 50px;
+}
+
